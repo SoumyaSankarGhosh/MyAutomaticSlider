@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.kiit.myslider.MainActivity"
+    android:orientation="vertical"
+    android:background="#99000000"
+    android:weightSum="1">
+
+
+
+ <!--   <Button android:id="@+id/close"
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:onClick="onClick"
+
+         />-->
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+        <ImageView
+            android:id="@+id/ImageView3_Left"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop">
+        </ImageView>
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha=".5"
+        android:background="#ffffff" />
+
+    <LinearLayout
+        android:id="@+id/layoutDots"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="#3b3838"></LinearLayout>
+
+
+
+</LinearLayout>
